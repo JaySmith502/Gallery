@@ -8,5 +8,9 @@ namespace Gallery.Controllers
 {
     public class PhishExampleController : Controller
     {
+        public string Detail()
+        {
+            return "Hello from Lake O'Phishy!";
+        }
     }
 }
